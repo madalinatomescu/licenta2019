@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<title>Alege cu cap!</title>
+	<link rel="stylesheet" href="css/interfata.css" />
+	<link rel="stylesheet" href="css/formConectare.css" />
+	</head>
+	
+	<body>
+		<header id="header">
+			<!--<h1>Bine ati venit!</h1>-->
+			<ul>
+				<li><a href="indexLicenta.html">Acasa</a></li>
+				<li><a href="scoli.php">Lista scoli generale</a></li>
+				<li><a href="licee.php">Lista licee</a></li>
+				<li><a href="general.php">Statistici generale</a></li>
+				<ul id="dreapta">
+					<li><a href="inregistrare.html">Inregistrare</a></li>
+					<li><a href="conectare.html">Conectare</a></li>
+				</ul>
+			</ul>	
+		</header>
+		
+		<form action="action_page.php">
+		 <!-- <div class="imgcontainer">
+			<img src="img_avatar2.png" alt="Avatar" class="avatar">
+		  </div> -->
+
+		  <div class="container">
+			<label for="uname"><b>Nume de utilizator</b></label>
+			<input type="text" name="uname" required>
+
+			<label for="psw"><b>Parola</b></label>
+			<input type="password" name="psw" required>
+
+			<button type="submit">Conectare</button>
+			<label>
+			  <input type="checkbox" checked="checked" name="remember"> Retine-ma
+			</label>
+		  </div>
+
+		  <div class="container" style="background-color:#f1f1f1">
+			<button type="button" class="cancelbtn">Anulare</button>
+			<span class="psw">Ai uitat <a href="#">parola?</a></span>
+		  </div>
+		</form>
+	</body>
+</html>
